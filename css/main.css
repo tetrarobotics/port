@@ -1971,15 +1971,16 @@ input::-moz-focus-inner {
     opacity: .2;
 }
 
+/* intro image */
 .intro-grid {
     background-image: url(../images/pattern-dot-grid.svg);
-    background-size: 24px 24px;
-    opacity: .15;
+    background-size: 40px;
+    opacity: .15;    
     position: absolute;
-    top: 30%;
+    top: 35%;
     right: 0;
     bottom: 0;
-    left: 30%;
+    left: 0%;
 }
 
 .intro-text {
@@ -2716,7 +2717,7 @@ input::-moz-focus-inner {
     max-width: 1400px;
     margin-top: 11.2rem;
     display: block;
-    margin-left: auto;
+    margin-left: 25%;
     margin-right: auto;
 }
 
@@ -3680,4 +3681,9 @@ html[data-useragent*='rv:11.0'] .ss-go-top::after {
 
 .white_clr{
     color: #ffffff;
+}
+
+.float_chan{
+    float: right;
+    margin-right: 450px;
 }
